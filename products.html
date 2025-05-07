@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Gaon Se</title>
+    <meta name="description" content="Explore our range of natural, village-sourced products including hand-ground spices, cold-pressed oils, and stone-ground wheat flour.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="Gaon Se Logo">
+                </a>
+                
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="farmers.html">Farmer Stories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.pixabay.com/photo/2018/09/27/00/15/food-3706137_1280.jpg'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center; text-align: center; margin-top: 80px;">
+        <div class="container">
+            <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Our Products</h1>
+            <p style="color: white; max-width: 700px; margin: 0 auto;">Discover our range of hand-ground spices, cold-pressed oils, and stone-ground wheat flour sourced directly from Indian villages.</p>
+        </div>
+    </section>
+
+    <!-- Product Intro Section -->
+    <section class="section-intro">
+        <div class="container">
+            <div class="intro-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2>Straight from Indian Villages</h2>
+                <p>At Gaon Se, we take pride in offering products that are made using traditional methods passed down through generations. Our commitment to authenticity means that each product retains its natural goodness, flavors, and health benefits.</p>
+                <p>Every product in our collection is sourced directly from farmers who follow sustainable practices, processed using time-tested traditional methods, and brought to you with minimal intervention to preserve its purity and essence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Filter Section -->
+    <section class="section-products" style="background-color: var(--light-accent);">
+        <div class="container">
+            <div class="product-filter" style="display: flex; justify-content: center; margin-bottom: 3rem;">
+                <button class="btn product-filter-btn active" data-category="all" style="margin: 0 10px;">All Products</button>
+                <button class="btn product-filter-btn" data-category="Spices" style="margin: 0 10px;">Spices</button>
+                <button class="btn product-filter-btn" data-category="Oils" style="margin: 0 10px;">Oils</button>
+                <button class="btn product-filter-btn" data-category="Flour" style="margin: 0 10px;">Flour</button>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Production Process Section -->
+    <section class="section-process">
+        <div class="container">
+            <h2 class="section-title">Our Production Process</h2>
+            
+            <div class="process-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                <div class="process-card reveal" style="background-color: white; border-radius: var(--border-radius); overflow: hidden; box-shadow: var(--box-shadow);">
+                    <div class="process-image" style="height: 200px; overflow: hidden;">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/29/10/09/adult-1868982_1280.jpg" alt="Sourcing Raw Materials" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="process-content" style="padding: 1.5rem;">
+                        <h3>Sourcing Raw Materials</h3>
+                        <p>We work directly with farmers who follow natural farming practices to source the highest quality raw materials for our products.</p>
+                    </div>
+                </div>
+                
+                <div class="process-card reveal" style="background-color: white; border-radius: var(--border-radius); overflow: hidden; box-shadow: var(--box-shadow);">
+                    <div class="process-image" style="height: 200px; overflow: hidden;">
+                        <img src="https://cdn.pixabay.com/photo/2022/01/26/19/20/coriander-6969247_1280.jpg" alt="Traditional Processing" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="process-content" style="padding: 1.5rem;">
+                        <h3>Traditional Processing</h3>
+                        <p>Our products are processed using traditional methods such as hand-grinding spices and cold-pressing oils to preserve their natural properties.</p>
+                    </div>
+                </div>
+                
+                <div class="process-card reveal" style="background-color: white; border-radius: var(--border-radius); overflow: hidden; box-shadow: var(--box-shadow);">
+                    <div class="process-image" style="height: 200px; overflow: hidden;">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/06/10/21/agriculture-2591451_1280.jpg" alt="Quality Control" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="process-content" style="padding: 1.5rem;">
+                        <h3>Quality Control</h3>
+                        <p>Each batch undergoes rigorous quality checks to ensure purity, consistency, and adherence to our high standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-faq" style="background-color: var(--light-accent);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container" style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item reveal" style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--box-shadow);">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        How are your spices different from store-bought ones?
+                        <i class="fas fa-chevron-down" style="font-size: 0.8rem; transition: var(--transition);"></i>
+                    </h3>
+                    <div class="faq-answer" style="margin-top: 1rem; display: none;">
+                        <p>Our spices are hand-ground using traditional stone grinders which preserves their essential oils, aroma, and flavor. Unlike mass-produced spices that may contain additives and fillers, ours are 100% pure and processed in small batches to ensure freshness.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item reveal" style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--box-shadow);">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        What makes cold-pressed mustard oil better?
+                        <i class="fas fa-chevron-down" style="font-size: 0.8rem; transition: var(--transition);"></i>
+                    </h3>
+                    <div class="faq-answer" style="margin-top: 1rem; display: none;">
+                        <p>Cold-pressed mustard oil is extracted without using heat, which preserves its natural nutrients, flavor, and medicinal properties. It retains the characteristic pungency and health benefits that are often lost in refined oils processed at high temperatures.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item reveal" style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--box-shadow);">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        How should I store your products?
+                        <i class="fas fa-chevron-down" style="font-size: 0.8rem; transition: var(--transition);"></i>
+                    </h3>
+                    <div class="faq-answer" style="margin-top: 1rem; display: none;">
+                        <p>Our products should be stored in airtight containers in a cool, dry place away from direct sunlight. Refrigeration is not necessary but can help extend the shelf life of ground spices and wheat flour. Cold-pressed mustard oil can be stored at room temperature.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item reveal" style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--box-shadow);">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        Do you ship your products nationwide?
+                        <i class="fas fa-chevron-down" style="font-size: 0.8rem; transition: var(--transition);"></i>
+                    </h3>
+                    <div class="faq-answer" style="margin-top: 1rem; display: none;">
+                        <p>Currently, we serve customers in select cities across India. Please contact us for specific information about shipping to your location.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item reveal" style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--box-shadow);">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        Are your products certified organic?
+                        <i class="fas fa-chevron-down" style="font-size: 0.8rem; transition: var(--transition);"></i>
+                    </h3>
+                    <div class="faq-answer" style="margin-top: 1rem; display: none;">
+                        <p>While our products follow natural farming practices and are free from chemical additives, we are in the process of obtaining organic certification. We work closely with farmers who follow sustainable agriculture practices and do not use synthetic pesticides or fertilizers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta" style="background-color: var(--secondary-color); color: white; text-align: center; padding: 4rem 0;">
+        <div class="container">
+            <h2 style="color: white; margin-bottom: 1.5rem;">Ready to Experience Authentic Flavors?</h2>
+            <p style="margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">Bring the goodness of village-sourced products to your kitchen and transform your culinary experience.</p>
+            <a href="contact.html" class="btn" style="background-color: var(--primary-color);">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Gaon Se Logo">
+                    </div>
+                    <p>Bringing the authentic taste of Indian villages directly to your home. Pure, natural, and traditional.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/gaonse_official" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="farmers.html">Farmer Stories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="products.html">Spices</a></li>
+                        <li><a href="products.html">Mustard Oil</a></li>
+                        <li><a href="products.html">Wheat Flour</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +91 7091178291</p>
+                    <p><i class="fas fa-envelope"></i> info.gaonse@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pratap Enterprises, Munger, Bihar, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Gaon Se by Pratap Enterprises. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    
+    <script>
+        // FAQ Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item h3');
+            
+            faqItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle display
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        answer.style.display = 'block';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

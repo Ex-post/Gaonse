@@ -1,0 +1,19 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { 
+      font-family: 'Lora', serif; 
+      font-weight: bold;
+    }
+    .tagline {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+    }
+  </style>
+  
+  <!-- Leaf icon -->
+  <path d="M40,20 C55,20 65,35 60,50 C55,65 40,70 25,60 C10,50 15,35 30,30 C20,45 40,55 45,40 C50,30 40,20 40,20 Z" fill="#5D8A48"/>
+  
+  <!-- Text -->
+  <text x="75" y="40" class="logo-text" fill="#5D4037" font-size="28">GAON SE</text>
+  <text x="75" y="55" class="tagline" fill="#5D4037" font-size="12">Pure Taste, Straight from the Village</text>
+</svg>

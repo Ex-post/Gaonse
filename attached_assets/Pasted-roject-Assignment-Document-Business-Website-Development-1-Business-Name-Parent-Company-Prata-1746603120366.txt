@@ -1,0 +1,104 @@
+roject Assignment Document
+
+Business Website Development
+
+⸻
+
+1. Business Name
+
+Parent Company: Pratap Enterprises
+Sub-Brand: Gaon Se
+
+⸻
+
+2. Business Overview
+	•	Pratap Enterprises is a manufacturing and distribution company founded in 2013 in Munger, Bihar.
+	•	It specializes in delivering high-quality daily essentials, focusing on purity, traditional production methods, and building customer trust.
+	•	Gaon Se was launched in 2023 as a sub-brand that brings natural, village-sourced food products to urban homes.
+
+⸻
+
+3. Website Purpose
+	•	Showcase products (spices, mustard oil, wheat flour)
+	•	Build brand trust
+	•	Share the brand’s story and connection with Indian villages
+	•	Allow customer inquiries through contact forms
+
+⸻
+
+4. Target Audience
+	•	Health-conscious individuals and families
+	•	Urban customers looking for authentic, traditional food
+	•	Organic and natural product lovers
+	•	Premium grocery buyers
+
+⸻
+
+5. Products Offered
+
+Hand-ground Spices:
+	•	Red Chilli Powder
+	•	Turmeric Powder
+	•	Coriander Powder
+	•	Black Pepper
+	•	Cumin Seeds (Jeera)
+
+Other Products:
+	•	Cold-Pressed Mustard Oil
+	•	Cold-Pressed Wheat Flour (Atta)
+
+⸻
+
+6. Website Features Required
+	•	Homepage
+	•	About Us page
+	•	Products page
+	•	Contact Us page
+	•	(Optional) Farmer Stories page
+
+⸻
+
+7. Contact Information
+	•	Phone: +91 7091178291
+	•	Email: info.gaonse@gmail.com
+	•	Instagram: @gaonse_official
+
+⸻
+
+8. Website Design Preferences
+	•	Colors: Light cream/white background; Green and Brown highlights (earthy, natural)
+	•	Font Style: Clean, friendly, rustic (suggested fonts: Poppins, Lora, Roboto)
+	•	Overall Vibe: Natural, authentic, village-like feeling
+
+⸻
+
+9. Tools and Technology to Use
+	•	HTML, CSS, JavaScript
+	•	Bootstrap (for responsive design)
+	•	GitHub Pages (for free hosting)
+
+⸻
+
+10. Basic Website Structure (Wireframe)
+
+Pages:
+	•	Homepage: Banner image, welcome text, quick navigation buttons, key highlights
+	•	About Us: Brand story, mission, and values
+	•	Products: Details of spices, oil, and wheat flour
+	•	Contact Us: Contact form and social links
+	•	(Optional) Farmer Stories: Farmer experiences behind the brand
+
+⸻
+
+11. Sample Homepage Tagline
+
+“Pure Taste, Straight from the Village”
+Experience the richness of nature with our hand-ground spices, cold-pressed oils, and pure wheat flour — sourced directly from Indian villages.
+
+⸻
+
+12. Extra Notes
+	•	No online payment system required
+	•	Focus on mobile-friendly design
+	•	Tell emotional, trust-building brand stories
+	•	Use real/farm style images for a natural look
